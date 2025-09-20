@@ -9,9 +9,7 @@
 }
 
 .header-logo {
-    width: 148px;
-    margin-top: -4px;
-    margin-right: -4px;
+    width: 135px;
 }
 
 .header-menu {
@@ -61,6 +59,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 100%;
     min-height: 757px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/cover.jpg");
     background-position: center;
@@ -90,10 +89,10 @@
 }
 
 .logo_h1-you {
-    align-self: center;
-    margin-top: 233px;
+    align-self: end;
     margin-right: -47px;
-    width: 100%;
+    margin-bottom: 17px;
+    max-width: 100%;
 }
 
 .logo_h1-need {
@@ -102,7 +101,7 @@
     white-space: nowrap;
     align-self: end;
     margin-right: 79px;
-    width: 100%;
+    max-width: 100%;
 
 }
 
