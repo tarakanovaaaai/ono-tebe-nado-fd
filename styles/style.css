@@ -20,6 +20,7 @@
 
 .header_menu-active {
     display: block;
+    text-decoration: none;
     list-style-type: none;
     margin-right: -3px;
 }
