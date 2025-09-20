@@ -35,7 +35,7 @@
 
 .lots-link, .about-link {
     text-decoration: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1.5px solid #000;
     width: fit-content;
 }
 
@@ -54,7 +54,7 @@
 .header-telephone, .header-email {
     display: inline-block;
     text-decoration: underline;
-    text-underline-offset: 4px;
+    text-underline-offset: 5px;
 }
 
 .cover {
@@ -219,7 +219,7 @@
 .lots__look-more-link {
     display: block;
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 5px;
     text-transform: lowercase;
     font-size: 20px;
     margin: 30px auto 0 40px;
