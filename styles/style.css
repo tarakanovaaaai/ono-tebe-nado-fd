@@ -201,7 +201,10 @@
 }
 
 .main-auction {
-    padding: 35px 24px 179px 24px;
+    display: grid;
+    grid-template-columns: min-content 2fr;
+    gap: 72px;
+    padding: 35px 24px 180px 24px;
 }
 
 .about__logo {
@@ -221,8 +224,7 @@
 }
 
 .auction-article {
-    margin-top: -139px;
-    margin-left: 359px;
+    padding-top: 100px;
 }
 
 .about__title {
@@ -249,7 +251,6 @@
 .address-block_footer {
     margin-right: 84px;
 }
-
 
 .footer_menu-list {
     display: flex;
